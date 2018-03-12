@@ -7,6 +7,6 @@ for (var i=0, max=all.length; i < max; i++) {
 
 
 var list = document.getElementsByClassName("page-heading");
-list.getElementsByClassName("page-heading").innerHTML = "HI there";
+list.getElementsByClassName("post-list").innerHTML= "HI there";
 
 console.log(4 + 4)
