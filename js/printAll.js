@@ -9,4 +9,4 @@ for (var i=0, max=all.length; i < max; i++) {
 var list = document.getElementsByClassName("page-heading");
 list.getElementsByClassName("page-heading").innerHTML = "HI there";
 
-console.log("print")
+console.log(4 + 4)
