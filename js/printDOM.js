@@ -1,10 +1,3 @@
-//my file
-
-console.log("..the file before loaded");
-
-//document.onload = doEverting();
-
-$(document).ready(function() {
 
 
 // ceate a loop to print out all elmenets in the DOm 
@@ -15,43 +8,8 @@ $(document).ready(function() {
 
 
 
-	$("#close.btn").click(function(){
-	$('#not').hide(100);
+var all = document.getElementsByTagName("*");
 
-});
-
-
-
-	$("button").click(function(){
-	$('p').toggle();
-
-
-});
-
-// use jS to ide and soow
- 
-
-console.log("loaded & done");
-
-$(".butoms").click(function(){
-		$(#'not').hide(1000);
-
-});
-
-
-function abdo (){
-document.querySelector('h1').innerHTML = "Everyhing done!!";
-
-	$('h1').text ("now JQuery").addClass('red');
-
-
-	var el = document;
-	console.log(el);
+for (var i=0, max=all.length; i < max; i++) {
+     // Do something with the element here
 }
-
-abdo();
-
-
-
-
-});
