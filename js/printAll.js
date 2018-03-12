@@ -6,7 +6,7 @@ for (var i=0, max=all.length; i < max; i++) {
 */
 
 
-var list = document.getElementsByClassName("page-heading")[0];
-list.getElementsByClassName("page-heading")[0].innerHTML = "HI there";
+var list = document.getElementsByClassName("page-heading");
+list.getElementsByClassName("page-heading").innerHTML = "HI there";
 
 console.log("print")
