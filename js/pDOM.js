@@ -12,5 +12,5 @@ var all = document.getElementsByTagName("*");
 
 for (var i=0, max=all.length; i < max; i++) {
     
-	console.log(all); //all is an array...i is the array index...
+	console.log(all); 
 }
